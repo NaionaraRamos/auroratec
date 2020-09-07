@@ -1,4 +1,4 @@
-# Autec - Aurora Tecnologia
+# Autec - AuroraTec
 
 MageHackWomen - Desafio VTEX - Time 15
 
