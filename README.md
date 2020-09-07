@@ -8,3 +8,5 @@ Foi analisando esses dados, que criamos a  Autec: uma solução capaz de tornar 
 
 No caso das empresas, essa trilha será composta por selos de qualidade e reconhecimento; no caso das profissionais, será composta pelas competências que já possuem e as que conquistarão na AuroraTec.
 Com as profissionais, o cadastro será feito pela nossa chatbot Aurora, que realizará uma série de perguntas a fim de construir uma skill precisa, que possibilitará o cruzamento dos dados.
+
+Esta solução foi desenvolvida com a utilização do framework Django.
