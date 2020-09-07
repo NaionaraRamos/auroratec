@@ -1,0 +1,809 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="static/img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1366, maximum-scale=1.0" name="viewport"/>
+        <!-- Facebook -->
+        <meta content="" property="og:url"/>
+        <meta content="website" property="og:type"/>
+        <!-- Twitter -->
+        <meta content="photo" name="twitter:card"/>
+        <link href="{% static "autech/css/resultado-de-competencias.css" %}" rel="stylesheet" type="text/css"/>
+        <meta content="AnimaApp.com - Design to code, Automated." name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(24, 28, 40, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="resultado-de-competencias"/>
+        <div class="anima-container-center-horizontal">
+            <div class="resultado-de-competencias anima-flexbox-container anima-screen ">
+                <div class="overlap-group-Y7zamN">
+                    <img anima-src="static/img/4316859@1x.png" class="a4316859-VEcZYp" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="seja-bem-vinda-juliana-E5V67M font-class-7">
+                        <span class="span0-E5V67M">Seja bem-vinda, </span><span class="span1-E5V67M">Juliana</span><span class="span2-E5V67M">!</span>
+                    </div>
+                    <div class="abaixo-estao-suas-competencias-pontos-de-melhorias-e-materiais-para-voce-se-desenvolver-profissionalmente-zVyUet font-class-3">
+                        Abaixo estão suas competências, pontos de melhorias e materiais para você se desenvolver profissionalmente
+                    </div>
+                    <div class="grupo-4-Ufdrsn">
+                        <img anima-src="static/img/elipse-2@1x.png" class="elipse-2-ruvxf8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="static/img/elipse-3@1x.png" class="elipse-3-sI21xt" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="menu-E3DCV4">
+                        <div class="bg-RtrBFh">
+                            <img anima-src="static/img/caminho-19-1@1x.png" class="caminho-19-DHDo1z" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="grupo-2-S4Qzc4">
+                            <a href="{% url 'candidaturas' %}">
+                                <div class="candidaturas-2ZcLjF font-class-1">
+                                    CANDIDATURAS
+                                </div>
+                            </a>
+                            <a href="{% url 'cadastro_empresas' %}">
+                                <div class="para-empresas-mhxBv8 font-class-1">
+                                    PARA EMPRESAS
+                                </div>
+                            </a>
+                            <a href="{% url 'vagas' %}">
+                                <div class="vagas-Mob1Ea font-class-1">
+                                    VAGAS
+                                </div>
+                            </a>
+                            <div class="meu-perfil-bFLiFx font-class-1">
+                                MEU PERFIL
+                            </div>
+                        </div>
+                        <img anima-src="static/img/elipse-2-1@1x.png" class="elipse-2-gixgHN" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <a href="{% url 'home' %}">
+                            <img anima-src="static/img/logoautec-10@1x.png" class="logoautec-xJxzQD" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <a href="{% url 'premium' %}">
+                            <div class="grupo-36-HMCxAZ">
+                                <div class="retangulo-248-lzUr1s">
+                                </div>
+                                <div class="versao-premium-RGVN7J font-class-1">
+                                    VERSÃO PREMIUM
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <img anima-src="static/img/ret-ngulo-247@1x.png" class="retangulo-247-fx5MVY" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="auto-flex-1lKxzb anima-flexbox-container">
+                    <div class="total-yearly-impact-1kx1b5">
+                        <div class="bg-Vf6RuM">
+                            <img anima-src="static/img/rectangle--1@1x.png" class="rectangle-8Elb9r" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="your-tax-2uoUHr">
+                            <div class="bar-mcn5fD">
+                                <img anima-src="static/img/rectangle-2-@1x.png" class="rectangle-2-tM1AxQ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-10@1x.png" class="rectangle-1-txDtOC" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-tax-d1x60F">
+                            <div class="bar-2vMH5P">
+                                <img anima-src="static/img/rectangle-2--1@1x.png" class="rectangle-2-uqcsLO" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-11@1x.png" class="rectangle-1-hOLpYC" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-goal-mIsX3k">
+                            <div class="bar-F1w019">
+                                <img anima-src="static/img/rectangle-2--1@1x.png" class="rectangle-2-PMzBQP" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-2@1x.png" class="rectangle-1-QXXuI7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-actions-wUVRMi">
+                            <div class="bar-cCsaV5">
+                                <img anima-src="static/img/rectangle-1-13@1x.png" class="rectangle-1-wLcIwM" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-donations-y2aQed">
+                            <div class="bar-XgI3KO">
+                                <img anima-src="static/img/rectangle-2--1@1x.png" class="rectangle-2-2SXMxQ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-4@1x.png" class="rectangle-1-tEBubP" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-vxi13r">
+                                <div class="a45-BDxtZK font-class-5">
+                                    45%
+                                </div>
+                                <div class="competencia-1-PWjSar font-class-4">
+                                    <!--Competência 1-->
+				    Resiliência
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-focsfM">
+                        </div>
+                        <div class="title-qx4BVL">
+                            <div class="suas-competencias-em-soft-skills-1zH6hH font-class-7">
+                                <span class="span0-1zH6hH">SUAS COMPETÊNCIAS EM </span><span class="span1-1zH6hH">SOFT SKILLS </span>
+                            </div>
+                        </div>
+                        <div class="text-Y1xBV6">
+                            <div class="a32-RjJHet font-class-5">
+                                32%
+                            </div>
+                            <div class="competencia-2-xKyIBJ font-class-4">
+                                Colaboração
+                            </div>
+                        </div>
+                        <div class="text-RUl9d9">
+                            <div class="a80-k1hBuV font-class-5">
+                                80%
+                            </div>
+                            <div class="competencia-2-vtcd9x font-class-4">
+                                Liderança
+                            </div>
+                        </div>
+                        <div class="text-lisl46">
+                            <div class="a100-13JAhl font-class-5">
+                                100%
+                            </div>
+                            <div class="competencia-2-V0su6O font-class-4">
+                                Empatia
+                            </div>
+                        </div>
+                        <div class="text-4xo7D0">
+                            <div class="a32-djRyT6 font-class-5">
+                                32%
+                            </div>
+                            <div class="competencia-2-POJ7Ta font-class-4">
+                                Comunicação
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-yearly-impact-PGuVQf">
+                        <div class="bg-IWZrl1">
+                            <img anima-src="static/img/rectangle--2@1x.png" class="rectangle-sizOpl" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="divider-EOxNd8">
+                        </div>
+                        <div class="title-xfe8Ys">
+                            <div class="pontos-de-melhoria-em-soft-skills-ke4bUL font-class-7">
+                                <span class="span0-ke4bUL">PONTOS DE MELHORIA EM </span><span class="span1-ke4bUL">SOFT SKILLS</span>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-M7IPyW">
+                            <div class="bg-I4xT2u">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-YLCGFR" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-LL2dux">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-oRryjn font-class-5">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-1-G63ExO font-class-4">
+                                    Colaboração
+                                </div>
+                            </div>
+                            <div class="counter-vrpPUI">
+                                <div class="a32-beRZDE font-class-5">
+                                    32%
+                                </div>
+                                <div class="group-15-Im8zVf">
+                                    <img anima-src="static/img/base-1@1x.png" class="base-QWhpU7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle@1x.png" class="circle-Be5KOK" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-e6Va69">
+                                <div class="retangulo-2-lrxRKF">
+                                </div>
+                                <div class="ver-materiais-aGgFRv font-class-3">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-j62nZH">
+                            <div class="bg-wGd6Fr">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-d7d2GZ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-tGoHhV">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-cF82yp font-class-5">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-2-CZkNqK font-class-4">
+                                    Comunicação
+                                </div>
+                            </div>
+                            <div class="counter-mFyxuV">
+                                <div class="a32-CVoxCI font-class-5">
+                                    32%
+                                </div>
+                                <div class="group-15-TFalJ7">
+                                    <img anima-src="static/img/base-1@1x.png" class="base-Iweqxq" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-1@1x.png" class="circle-yoxWWW" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-woblml">
+                                <div class="retangulo-2-GWsMLF">
+                                </div>
+                                <div class="ver-materiais-4De2KK font-class-3">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="auto-flex1-t5q8Pb anima-flexbox-container">
+                    <div class="total-yearly-impact-JxSQF3">
+                        <div class="bg-jX4B5w">
+                            <img anima-src="static/img/rectangle--1@1x.png" class="rectangle-AXuAb5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="your-tax-jcw5l4">
+                            <div class="bar-Zk7GOA">
+                                <img anima-src="static/img/rectangle-2--3@1x.png" class="rectangle-2-vTJVti" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-15@1x.png" class="rectangle-1-NLksfL" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-tax-ZCDWZJ">
+                            <div class="bar-M5XJq8">
+                                <img anima-src="static/img/rectangle-2--1@1x.png" class="rectangle-2-5611qR" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-16@1x.png" class="rectangle-1-xvEKYe" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-goal-NcNnrL">
+                            <div class="bar-6DJdQR">
+                                <img anima-src="static/img/rectangle-2--1@1x.png" class="rectangle-2-NO7Rdw" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-7@1x.png" class="rectangle-1-kH3JKv" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-actions-nKXJCF">
+                            <div class="bar-67TB3A">
+                                <img anima-src="static/img/rectangle-1-18@1x.png" class="rectangle-1-Wdg44l" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-donations-HHbwdm">
+                            <div class="bar-ozngWx">
+                                <img anima-src="static/img/rectangle-2--1@1x.png" class="rectangle-2-a9ElAJ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-19@1x.png" class="rectangle-1-KSZ5J6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-PU572j">
+                                <div class="a45-2uCaOn font-class-5">
+                                    45%
+                                </div>
+                                <div class="competencia-1-uvcYiE font-class-4">
+                                    Python
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-GzpelE">
+                        </div>
+                        <div class="title-Zs1LXZ">
+                            <div class="suas-competencias-em-hard-skills-weYhhq font-class-7">
+                                <span class="span0-weYhhq">SUAS COMPETÊNCIAS EM </span><span class="span1-weYhhq">HARD SKILLS</span><span class="span2-weYhhq"> </span>
+                            </div>
+                        </div>
+                        <div class="text-qlSxWW">
+                            <div class="a32-MmDYnH font-class-5">
+                                32%
+                            </div>
+                            <div class="competencia-2-Mwmxi4 font-class-4">
+                                JavaScript
+                            </div>
+                        </div>
+                        <div class="text-6CHQjR">
+                            <div class="a80-txStn6 font-class-5">
+                                80%
+                            </div>
+                            <div class="competencia-2-vcKaDD font-class-4">
+                                Java
+                            </div>
+                        </div>
+                        <div class="text-vr3BdE">
+                            <div class="a100-FNqerQ font-class-5">
+                                100%
+                            </div>
+                            <div class="competencia-2-4OIkVU font-class-4">
+                                Linguagem de Programação
+                            </div>
+                        </div>
+                        <div class="text-XvMKw1">
+                            <div class="a32-PnuHCh font-class-5">
+                                32%
+                            </div>
+                            <div class="competencia-2-tVxJ5e font-class-4">
+                                Banco de Dados
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-yearly-impact-WXc1ms">
+                        <div class="bg-Gbva14">
+                            <img anima-src="static/img/rectangle--2@1x.png" class="rectangle-ZtEfQa" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="divider-s9nSNm">
+                        </div>
+                        <div class="title-n2F0MH">
+                            <div class="pontos-de-melhoria-em-hard-skills-7xjx6N font-class-7">
+                                <span class="span0-7xjx6N">PONTOS DE MELHORIA EM </span><span class="span1-7xjx6N">HARD SKILLS</span>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-AkUG4H">
+                            <div class="bg-Q0hHWZ">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-YcYiYM" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-V0OxtZ">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-Yjvy6b font-class-5">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-1-xCD5pL font-class-4">
+                                    JavaScript
+                                </div>
+                            </div>
+                            <div class="counter-5qXWxe">
+                                <div class="a32-SChAy4 font-class-5">
+                                    32%
+                                </div>
+                                <div class="group-15-6YxNXx">
+                                    <img anima-src="static/img/base-1@1x.png" class="base-0LILk4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-2@1x.png" class="circle-bZtIqx" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-G9fFsx">
+                                <div class="retangulo-2-yMzbFj">
+                                </div>
+                                <div class="ver-materiais-LYcnvv font-class-3">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-ypLWeY">
+                            <div class="bg-pEef4o">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-X4PCLD" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-DtWPGw">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-kAlEDI font-class-5">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-2-mGxAig font-class-4">
+                                    Banco de Dados
+                                </div>
+                            </div>
+                            <div class="counter-H7C5GV">
+                                <div class="a32-W8XSoC font-class-5">
+                                    32%
+                                </div>
+                                <div class="group-15-5QZxIj">
+                                    <img anima-src="static/img/base-1@1x.png" class="base-c9omxp" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-3@1x.png" class="circle-oR2M8B" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-xD8WRx">
+                                <div class="retangulo-2-1YxYD1">
+                                </div>
+                                <div class="ver-materiais-cNl9SU font-class-3">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title-Yr0KeO">
+                    <div class="competencia-1-3oBxSN">
+                        JavaScript
+                    </div>
+                    <div class="competencia-2-VM4Pmr font-class-4">
+                        Banco de Dados
+                    </div>
+                    <div class="competencia-1-yoLQZd font-class-4">
+                        Python
+                    </div>
+                    <div class="competencia-1-1UkSX6 font-class-4">
+                        Java
+                    </div>
+                </div>
+                <div class="retangulo-3-ofEbS5">
+                </div>
+                <div class="grupo-19-iBdeku">
+                    <div class="total-yearly-impact-jrpWrz">
+                        <div class="bg-FVzBpx">
+                            <img anima-src="static/img/rectangle--4@1x.png" class="rectangle-C2pZxH" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="divider-q39lkq">
+                        </div>
+                        <div class="title-Vyn0L3">
+                            <div class="materiais-para-desenvolver-a-competencia-1-fiYYxu font-class-7">
+                                <span class="span0-fiYYxu">MATERIAIS PARA DESENVOLVER A </span><span class="span1-fiYYxu">COMPETÊNCIA JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="componente-1-1-FqNN3n">
+                        <div class="grupo-5-yzGnOS">
+                            <div class="total-sale-today-qxV87t">
+                                <div class="bg-vEyWdO">
+                                    <img anima-src="static/img/caminho-20-4@1x.png" class="caminho-20-aaBgCf" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                        </div>
+                        <img anima-src="static/img/alura@1x.png" class="alura-PnP5h6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="grupo-9-5PxxTh">
+                            <div class="text-xjy1QB">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-7vamaf font-class-2">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
+                                </div>
+                                <div class="curso-de-desenvolvimento-de-sistemas-kRmL9s font-class-1">
+                                    Curso de<br />Desenvolvimento de sistemas
+                                </div>
+                                <div class="ao-final-do-curso-voce-ganhara-y6eIG4 font-class-6">
+                                    Ao final do curso, você ganhará:
+                                </div>
+                            </div>
+                            <div class="counter-yfxlef">
+                                <img anima-src="static/img/circle-4@1x.png" class="circle-4bQkDN" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="a25-KFAx8y font-class-1">
+                                +25%
+                            </div>
+                            <a href="https://www.alura.com.br/" target="_blank">
+                                <div class="grupo-6-WduNJi">
+                                    <div class="retangulo-2-4fSdcx">
+                                    </div>
+                                    <div class="fazer-H3C2uy font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="anuncio-GGp1TK font-class-3">
+                            Anúncio
+                        </div>
+                    </div>
+                    <div class="componente-1-2-sdxB8B">
+                        <div class="grupo-5-jN0FCZ">
+                            <div class="total-sale-today-bUC9bj">
+                                <div class="bg-1HE1zI">
+                                    <img anima-src="static/img/caminho-20-4@1x.png" class="caminho-20-8JuoEI" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grupo-8-oqLJWi">
+                            <div class="a25-jZVEiu font-class-1">
+                                +25%
+                            </div>
+                            <div class="grupo-7-sVHKNY">
+                                <div class="text-GwzCub">
+                                    <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-RBlHsz font-class-2">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
+                                    </div>
+                                    <div class="curso-de-node-js-rFjDxR font-class-1">
+                                        Curso de Node js
+                                    </div>
+                                    <div class="ao-final-do-curso-voce-ganhara-VnIxNF font-class-6">
+                                        Ao final do curso, você ganhará:
+                                    </div>
+                                </div>
+                                <div class="counter-srkVur">
+                                    <img anima-src="static/img/circle-4@1x.png" class="circle-xoY7Ie" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                                <a href="https://umbler.com/br" target="_blank">
+                                    <div class="grupo-6-2jhO8Y">
+                                        <div class="retangulo-2-vDsKCH">
+                                        </div>
+                                        <div class="fazer-uh13zV font-class-3">
+                                            Fazer
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grupo-10-ddO2xj anima-flexbox-container">
+                            <div class="umbler-logo-light-bg-8SJjq0 anima-flexbox-container">
+                                <div class="overlap-group1-9V3bdI">
+                                    <img anima-src="static/img/caminho-25@1x.png" class="caminho-25-xhw7Xc" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/caminho-27@1x.png" class="caminho-27-BQmUa1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                                <img anima-src="static/img/caminho-26@1x.png" class="caminho-26-z0Y8RV" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-24@1x.png" class="caminho-24-mRU4Xw" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-23@1x.png" class="caminho-23-I2TX3X" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-22@1x.png" class="caminho-22-2KqzMx" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-21@1x.png" class="caminho-21-gJR6ja" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="anuncio-b44zau font-class-3">
+                            Anúncio
+                        </div>
+                    </div>
+                    <div class="grupo-13-N6kFWx">
+                        <div class="componente-2-1-nLGvJx">
+                            <div class="grupo-5-5QB2uO">
+                                <div class="total-sale-today-SBFDMy">
+                                    <div class="bg-qTfFWI">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-ymsNzu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-CzFILX">
+                                <div class="artigo-sobre-responsividade-Ri1I2h font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-ze3esI font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-rDKxLC">
+                                    <div class="a2-xNusAl font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-bsJ6ka">
+                                        <img anima-src="static/img/circle-10@1x.png" class="circle-msG2AY" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-3g6i3Q">
+                                    <div class="retangulo-2-UqvtHs">
+                                    </div>
+                                    <div class="fazer-0VC0GW font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-2-prVgnf">
+                            <div class="grupo-5-dhHW3g">
+                                <div class="total-sale-today-Nx6GMq">
+                                    <div class="bg-Fc8fbr">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-PGMjNj" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-9CX53T">
+                                <div class="artigo-sobre-responsividade-8tfs5x font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-sj9OAr font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-FXzTtV">
+                                    <div class="a2-qTJXQP font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-jGHCq8">
+                                        <img anima-src="static/img/circle-10@1x.png" class="circle-LCiAc8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-BGuICN">
+                                    <div class="retangulo-2-uJxfoz">
+                                    </div>
+                                    <div class="fazer-3x2fQB font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-3-eu1Y8J">
+                            <div class="grupo-5-Qsr8TS">
+                                <div class="total-sale-today-iCpefx">
+                                    <div class="bg-KvJKsU">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-Bn7a59" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-527dgm">
+                                <div class="artigo-sobre-responsividade-Uf9CHs font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-sDFC7o font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-7QUX43">
+                                    <div class="a2-xMM7cn font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-Cku1Uy">
+                                        <img anima-src="static/img/circle-10@1x.png" class="circle-vhX5v0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-4IDwZG">
+                                    <div class="retangulo-2-c3kPAM">
+                                    </div>
+                                    <div class="fazer-zu9xdl font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo-14-1gxxv8">
+                        <div class="componente-2-4-qh9omr">
+                            <div class="grupo-5-uKtuux">
+                                <div class="total-sale-today-6fEp9x">
+                                    <div class="bg-tfqUVn">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-y5EsfS" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-IqBMMx">
+                                <div class="artigo-sobre-responsividade-MloCzx font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-lZTqE0 font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-ufIylr">
+                                    <div class="a2-WaZwKk font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-GZ4OTt">
+                                        <img anima-src="static/img/circle-10@1x.png" class="circle-KsevJ2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-E1M7Vo">
+                                    <div class="retangulo-2-Z8J0Li">
+                                    </div>
+                                    <div class="fazer-5px2Lp font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-5-u19814">
+                            <div class="grupo-5-w5rGYY">
+                                <div class="total-sale-today-6zeJtq">
+                                    <div class="bg-zk9Zb4">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-2Gfkpv" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-oNppc6">
+                                <div class="artigo-sobre-responsividade-YHSD19 font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-pEBFp2 font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-8LXv8y">
+                                    <div class="a2-FOsu3x font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-R6JZDx">
+                                        <img anima-src="static/img/circle-10@1x.png" class="circle-I57Mtb" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-N6GQuH">
+                                    <div class="retangulo-2-XlYiL6">
+                                    </div>
+                                    <div class="fazer-E4noZD font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-6-Rem4a8">
+                            <div class="grupo-5-hWLBAb">
+                                <div class="total-sale-today-TAOp2R">
+                                    <div class="bg-uAZx9g">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-7SOxWu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-QgxhXu">
+                                <div class="artigo-sobre-responsividade-WUjsfs font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-5ORqk4 font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-VYCSNH">
+                                    <div class="a2-EANs2x font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-rpk6yz">
+                                        <img anima-src="static/img/circle-10@1x.png" class="circle-jjaG3w" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-qPZOj0">
+                                    <div class="retangulo-2-67uX16">
+                                    </div>
+                                    <div class="fazer-7XwGrv font-class-3">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-18-eMxhQr">
+                    <div class="grupo-17-XEb7Cx">
+                        <div class="quer-concorrer-a-vagas-que-dao-match-com-suas-competencias-M7T3Fx">
+                            Quer concorrer a vagas que dão<br />“Match”  com  suas competências?
+                        </div>
+                        <a href="{% url 'vagas' %}">
+                            <div class="grupo-15-GmPBM5">
+                                <div class="retangulo-2-kxOW39">
+                                </div>
+                                <div class="vagas-xevEll font-class-3">
+                                    Vagas
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="rodape-TlCuFS">
+                    <div class="grupo-20-OXjHu9">
+                        <img anima-src="static/img/caminho-28-1@1x.png" class="caminho-28-HsIjxu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="autech-2020-todos-os-direitos-reservados-NxZ87L font-class-3">
+                            Autech 2020 - todos os direitos reservados
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+        <script src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js">
+        </script>
+    </body>
+</html>

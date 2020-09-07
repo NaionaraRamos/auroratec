@@ -1,0 +1,1374 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="static/img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1366, maximum-scale=1.0" name="viewport"/>
+        <!-- Facebook -->
+        <meta content="" property="og:url"/>
+        <meta content="website" property="og:type"/>
+        <!-- Twitter -->
+        <meta content="photo" name="twitter:card"/>
+        <link href="{% static "autech/css/tab-bar-ativa.css" %}" rel="stylesheet" type="text/css"/>
+        <meta content="AnimaApp.com - Design to code, Automated." name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(24, 28, 40, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="tab-bar-ativa"/>
+        <div class="anima-container-center-horizontal">
+            <div class="tab-bar-ativa anima-flexbox-container anima-screen ">
+                <div class="overlap-group-Y7zamN">
+                    <img anima-src="static/img/4316859-1@1x.png" class="a4316859-VEcZYp" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="seja-bem-vinda-ana-HU1wMx font-class-7">
+                        <span class="span0-HU1wMx">Seja bem-vinda, </span><span class="span1-HU1wMx">Ana</span><span class="span2-HU1wMx">!</span>
+                    </div>
+                    <div class="abaixo-estao-suas-competencias-pontos-de-melhorias-e-materiais-para-voce-se-desenvolver-profissionalmente-zVyUet font-class-4">
+                        Abaixo estão suas competências, pontos de melhorias e materiais para você se desenvolver profissionalmente
+                    </div>
+                    <div class="grupo-4-Ufdrsn">
+                        <img anima-src="static/img/elipse-2-4@1x.png" class="elipse-2-ruvxf8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img anima-src="static/img/elipse-3-1@1x.png" class="elipse-3-sI21xt" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="menu-E3DCV4">
+                        <div class="bg-RtrBFh">
+                            <img anima-src="static/img/caminho-19-1@1x.png" class="caminho-19-DHDo1z" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="grupo-2-S4Qzc4">
+                            <a href="{% url 'candidaturas' %}">
+                                <div class="candidaturas-2ZcLjF font-class-1">
+                                    CANDIDATURAS
+                                </div>
+                            </a>
+                            <div class="para-empresas-mhxBv8 font-class-1">
+                                PARA EMPRESAS
+                            </div>
+                            <a href="{% url 'vagas' %}">
+                                <div class="vagas-Mob1Ea font-class-1">
+                                    VAGAS
+                                </div>
+                            </a>
+                            <a href="{% url 'resultado_de_competencias' %}">
+                                <div class="meu-perfil-bFLiFx font-class-1">
+                                    MEU PERFIL
+                                </div>
+                            </a>
+                        </div>
+                        <img anima-src="static/img/elipse-2-1@1x.png" class="elipse-2-gixgHN" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <a href="home.html">
+                            <img anima-src="static/img/logoautec-1@1x.png" class="logoautec-xJxzQD" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                    </div>
+                    <img anima-src="static/img/ret-ngulo-247-2@1x.png" class="retangulo-247-fx5MVY" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="auto-flex-1lKxzb anima-flexbox-container">
+                    <div class="total-yearly-impact-1kx1b5">
+                        <div class="bg-Vf6RuM">
+                            <img anima-src="static/img/rectangle--11@1x.png" class="rectangle-8Elb9r" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="your-tax-2uoUHr">
+                            <div class="bar-mcn5fD">
+                                <img anima-src="static/img/rectangle-2--12@1x.png" class="rectangle-2-tM1AxQ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-10@1x.png" class="rectangle-1-txDtOC" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-tax-d1x60F">
+                            <div class="bar-2vMH5P">
+                                <img anima-src="static/img/rectangle-2--13@1x.png" class="rectangle-2-uqcsLO" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-11@1x.png" class="rectangle-1-hOLpYC" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-goal-mIsX3k">
+                            <div class="bar-F1w019">
+                                <img anima-src="static/img/rectangle-2--13@1x.png" class="rectangle-2-PMzBQP" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-22@1x.png" class="rectangle-1-QXXuI7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-actions-wUVRMi">
+                            <div class="bar-cCsaV5">
+                                <img anima-src="static/img/rectangle-1-13@1x.png" class="rectangle-1-wLcIwM" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-donations-y2aQed">
+                            <div class="bar-XgI3KO">
+                                <img anima-src="static/img/rectangle-2--13@1x.png" class="rectangle-2-2SXMxQ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-24@1x.png" class="rectangle-1-tEBubP" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-vxi13r">
+                                <div class="a45-BDxtZK font-class-3">
+                                    45%
+                                </div>
+                                <div class="competencia-1-PWjSar font-class-2">
+                                    Competência 1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-focsfM">
+                        </div>
+                        <div class="title-qx4BVL">
+                            <div class="suas-competencias-em-soft-skills-1zH6hH font-class-7">
+                                <span class="span0-1zH6hH">SUAS COMPETÊNCIAS EM </span><span class="span1-1zH6hH">SOFT SKILLS </span>
+                            </div>
+                        </div>
+                        <div class="text-Y1xBV6">
+                            <div class="a32-RjJHet font-class-3">
+                                32%
+                            </div>
+                            <div class="competencia-2-xKyIBJ font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                        <div class="text-RUl9d9">
+                            <div class="a80-k1hBuV font-class-3">
+                                80%
+                            </div>
+                            <div class="competencia-2-vtcd9x font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                        <div class="text-lisl46">
+                            <div class="a100-13JAhl font-class-3">
+                                100%
+                            </div>
+                            <div class="competencia-2-V0su6O font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                        <div class="text-4xo7D0">
+                            <div class="a32-djRyT6 font-class-3">
+                                32%
+                            </div>
+                            <div class="competencia-2-POJ7Ta font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-yearly-impact-PGuVQf">
+                        <div class="bg-IWZrl1">
+                            <img anima-src="static/img/rectangle--13@1x.png" class="rectangle-sizOpl" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="divider-EOxNd8">
+                        </div>
+                        <div class="title-xfe8Ys">
+                            <div class="pontos-de-melhoria-em-soft-skills-ke4bUL font-class-7">
+                                <span class="span0-ke4bUL">PONTOS DE MELHORIA EM </span><span class="span1-ke4bUL">SOFT SKILLS</span>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-M7IPyW">
+                            <div class="bg-I4xT2u">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-YLCGFR" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-LL2dux">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-oRryjn font-class-3">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-1-G63ExO font-class-2">
+                                    Competência 1
+                                </div>
+                            </div>
+                            <div class="counter-vrpPUI">
+                                <div class="a32-beRZDE font-class-3">
+                                    32%
+                                </div>
+                                <div class="group-15-Im8zVf">
+                                    <img anima-src="static/img/base-12@1x.png" class="base-QWhpU7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-12@1x.png" class="circle-Be5KOK" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-e6Va69">
+                                <div class="retangulo-2-lrxRKF">
+                                </div>
+                                <div class="ver-materiais-aGgFRv font-class-4">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-j62nZH">
+                            <div class="bg-wGd6Fr">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-d7d2GZ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-tGoHhV">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-cF82yp font-class-3">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-2-CZkNqK font-class-2">
+                                    Competência 2
+                                </div>
+                            </div>
+                            <div class="counter-mFyxuV">
+                                <div class="a32-CVoxCI font-class-3">
+                                    32%
+                                </div>
+                                <div class="group-15-TFalJ7">
+                                    <img anima-src="static/img/base-12@1x.png" class="base-Iweqxq" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-13@1x.png" class="circle-yoxWWW" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-woblml">
+                                <div class="retangulo-2-GWsMLF">
+                                </div>
+                                <div class="ver-materiais-4De2KK font-class-4">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="auto-flex1-t5q8Pb anima-flexbox-container">
+                    <div class="total-yearly-impact-JxSQF3">
+                        <div class="bg-jX4B5w">
+                            <img anima-src="static/img/rectangle--11@1x.png" class="rectangle-AXuAb5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="your-tax-jcw5l4">
+                            <div class="bar-Zk7GOA">
+                                <img anima-src="static/img/rectangle-2--15@1x.png" class="rectangle-2-vTJVti" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-15@1x.png" class="rectangle-1-NLksfL" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-tax-ZCDWZJ">
+                            <div class="bar-M5XJq8">
+                                <img anima-src="static/img/rectangle-2--13@1x.png" class="rectangle-2-5611qR" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-16@1x.png" class="rectangle-1-xvEKYe" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-goal-NcNnrL">
+                            <div class="bar-6DJdQR">
+                                <img anima-src="static/img/rectangle-2--13@1x.png" class="rectangle-2-NO7Rdw" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-27@1x.png" class="rectangle-1-kH3JKv" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-actions-nKXJCF">
+                            <div class="bar-67TB3A">
+                                <img anima-src="static/img/rectangle-1-18@1x.png" class="rectangle-1-Wdg44l" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="your-donations-HHbwdm">
+                            <div class="bar-ozngWx">
+                                <img anima-src="static/img/rectangle-2--13@1x.png" class="rectangle-2-a9ElAJ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/rectangle-1-19@1x.png" class="rectangle-1-KSZ5J6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-PU572j">
+                                <div class="a45-2uCaOn font-class-3">
+                                    45%
+                                </div>
+                                <div class="competencia-1-uvcYiE font-class-2">
+                                    Competência 1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divider-GzpelE">
+                        </div>
+                        <div class="title-Zs1LXZ">
+                            <div class="suas-competencias-em-hard-skills-weYhhq font-class-7">
+                                <span class="span0-weYhhq">SUAS COMPETÊNCIAS EM </span><span class="span1-weYhhq">HARD SKILLS</span><span class="span2-weYhhq"> </span>
+                            </div>
+                        </div>
+                        <div class="text-qlSxWW">
+                            <div class="a32-MmDYnH font-class-3">
+                                32%
+                            </div>
+                            <div class="competencia-2-Mwmxi4 font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                        <div class="text-6CHQjR">
+                            <div class="a80-txStn6 font-class-3">
+                                80%
+                            </div>
+                            <div class="competencia-2-vcKaDD font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                        <div class="text-vr3BdE">
+                            <div class="a100-FNqerQ font-class-3">
+                                100%
+                            </div>
+                            <div class="competencia-2-4OIkVU font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                        <div class="text-XvMKw1">
+                            <div class="a32-PnuHCh font-class-3">
+                                32%
+                            </div>
+                            <div class="competencia-2-tVxJ5e font-class-2">
+                                Competência 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-yearly-impact-WXc1ms">
+                        <div class="bg-Gbva14">
+                            <img anima-src="static/img/rectangle--13@1x.png" class="rectangle-ZtEfQa" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="divider-s9nSNm">
+                        </div>
+                        <div class="title-n2F0MH">
+                            <div class="pontos-de-melhoria-em-hard-skills-7xjx6N font-class-7">
+                                <span class="span0-7xjx6N">PONTOS DE MELHORIA EM </span><span class="span1-7xjx6N">HARD SKILLS</span>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-AkUG4H">
+                            <div class="bg-Q0hHWZ">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-YcYiYM" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-V0OxtZ">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-Yjvy6b font-class-3">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-1-xCD5pL font-class-2">
+                                    Competência 1
+                                </div>
+                            </div>
+                            <div class="counter-5qXWxe">
+                                <div class="a32-SChAy4 font-class-3">
+                                    32%
+                                </div>
+                                <div class="group-15-6YxNXx">
+                                    <img anima-src="static/img/base-12@1x.png" class="base-0LILk4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-14@1x.png" class="circle-bZtIqx" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-G9fFsx">
+                                <div class="retangulo-2-yMzbFj">
+                                </div>
+                                <div class="ver-materiais-LYcnvv font-class-4">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                        <div class="daily-visitors-ypLWeY">
+                            <div class="bg-pEef4o">
+                                <img anima-src="static/img/caminho-20-18@1x.png" class="caminho-20-X4PCLD" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="text-DtWPGw">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-dolore-magna-aliquyam-erat-sed-diam-voluptua-at-vero-eos-et-accusam-et-kAlEDI font-class-3">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                                </div>
+                                <div class="competencia-2-mGxAig font-class-2">
+                                    Competência 2
+                                </div>
+                            </div>
+                            <div class="counter-H7C5GV">
+                                <div class="a32-W8XSoC font-class-3">
+                                    32%
+                                </div>
+                                <div class="group-15-5QZxIj">
+                                    <img anima-src="static/img/base-12@1x.png" class="base-c9omxp" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/circle-15@1x.png" class="circle-oR2M8B" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <div class="grupo-3-xD8WRx">
+                                <div class="retangulo-2-1YxYD1">
+                                </div>
+                                <div class="ver-materiais-cNl9SU font-class-4">
+                                    Ver materiais
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title-Yr0KeO">
+                    <a href="resultado-de-competencias.html">
+                        <div class="competencia-1-3oBxSN font-class-2">
+                            COMPETÊNCIA 1
+                        </div>
+                    </a>
+                    <div class="competencia-2-VM4Pmr">
+                        COMPETÊNCIA 2
+                    </div>
+                    <div class="competencia-1-yoLQZd font-class-2">
+                        COMPETÊNCIA 1
+                    </div>
+                    <div class="competencia-1-1UkSX6 font-class-2">
+                        COMPETÊNCIA 1
+                    </div>
+                </div>
+                <div class="retangulo-3-ofEbS5">
+                </div>
+                <div class="grupo-19-iBdeku">
+                    <div class="total-yearly-impact-jrpWrz">
+                        <div class="bg-FVzBpx">
+                            <img anima-src="static/img/rectangle--15@1x.png" class="rectangle-C2pZxH" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="divider-q39lkq">
+                        </div>
+                        <div class="title-Vyn0L3">
+                            <div class="materiais-para-desenvolver-a-competencia-2-b5Fa07 font-class-7">
+                                <span class="span0-b5Fa07">MATERIAIS PARA DESENVOLVER A </span><span class="span1-b5Fa07">COMPETÊNCIA 2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="componente-1-3-KLpBlF">
+                        <div class="grupo-5-FtPt4Y">
+                            <div class="total-sale-today-D9Wrsz">
+                                <div class="bg-0VASI9">
+                                    <img anima-src="static/img/caminho-20-22@1x.png" class="caminho-20-xmRpGK" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                        </div>
+                        <img anima-src="static/img/alura-1@1x.png" class="alura-qSEoxF" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="grupo-9-jKPwpQ">
+                            <div class="text-727qmw">
+                                <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-BcOOtJ font-class-5">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
+                                </div>
+                                <div class="curso-de-desenvolvimento-de-sistemas-bNiWqz font-class-1">
+                                    Curso de<br />Desenvolvimento de sistemas
+                                </div>
+                                <div class="ao-final-do-curso-voce-ganhara-7qJ2x9 font-class-6">
+                                    Ao final do curso, você ganhará:
+                                </div>
+                            </div>
+                            <div class="counter-vxvLDk">
+                                <img anima-src="static/img/circle-16@1x.png" class="circle-HbQs1G" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="a25-ugeCng font-class-1">
+                                +25%
+                            </div>
+                            <a href="https://www.alura.com.br/" target="_blank">
+                                <div class="grupo-6-4r9pXt">
+                                    <div class="retangulo-2-ChVGrk">
+                                    </div>
+                                    <div class="fazer-j1AOsb font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="anuncio-17ds5K font-class-4">
+                            Anúncio
+                        </div>
+                    </div>
+                    <div class="componente-1-4-sJUB7l">
+                        <div class="grupo-5-ajFYla">
+                            <div class="total-sale-today-l3c0sx">
+                                <div class="bg-2HIrhq">
+                                    <img anima-src="static/img/caminho-20-22@1x.png" class="caminho-20-olWubr" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grupo-8-Py9a2K">
+                            <div class="a25-gtVLqR font-class-1">
+                                +25%
+                            </div>
+                            <div class="grupo-7-kQKcjL">
+                                <div class="text-cqt8cd">
+                                    <div class="lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed-diam-nonumy-eirmod-tempor-invidunt-ut-labore-et-lorem-ipsum-dolor-sit-amet-consetetur-SBmexK font-class-5">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.
+                                    </div>
+                                    <div class="curso-de-node-js-veV0mU font-class-1">
+                                        Curso de Node js
+                                    </div>
+                                    <div class="ao-final-do-curso-voce-ganhara-pBO5No font-class-6">
+                                        Ao final do curso, você ganhará:
+                                    </div>
+                                </div>
+                                <div class="counter-JROTbx">
+                                    <img anima-src="static/img/circle-16@1x.png" class="circle-bV1VLx" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                                <a href="https://umbler.com/br" target="_blank">
+                                    <div class="grupo-6-7rdaZA">
+                                        <div class="retangulo-2-3MjI3e">
+                                        </div>
+                                        <div class="fazer-SkBIvs font-class-4">
+                                            Fazer
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grupo-10-6fj09Q anima-flexbox-container">
+                            <div class="umbler-logo-light-bg-v1br7r anima-flexbox-container">
+                                <div class="overlap-group1-wgRFnC">
+                                    <img anima-src="static/img/caminho-25-1@1x.png" class="caminho-25-xLJoCt" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    <img anima-src="static/img/caminho-27-1@1x.png" class="caminho-27-pX4WGH" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                                <img anima-src="static/img/caminho-26-1@1x.png" class="caminho-26-idp8Zy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-24-1@1x.png" class="caminho-24-N5rC07" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-23-1@1x.png" class="caminho-23-QjmpLy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-22-1@1x.png" class="caminho-22-ma7vL1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-21-1@1x.png" class="caminho-21-RFx1UM" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                        <div class="anuncio-ZbM2Ma font-class-4">
+                            Anúncio
+                        </div>
+                    </div>
+                    <div class="grupo-13-N6kFWx">
+                        <div class="componente-2-7-IvUsQr">
+                            <div class="grupo-5-xQSQor">
+                                <div class="total-sale-today-wfdTfr">
+                                    <div class="bg-22L0rN">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-EPzEJJ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-xXTD9q">
+                                <div class="artigo-sobre-responsividade-1ULG6S font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-gCWwC4 font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-0g07TZ">
+                                    <div class="a2-tLXHtJ font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-mIO8NT">
+                                        <img anima-src="static/img/circle-18@1x.png" class="circle-OhFeIY" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-Xti6LT">
+                                    <div class="retangulo-2-xi4nOl">
+                                    </div>
+                                    <div class="fazer-E2HzbT font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-8-AJyD9r">
+                            <div class="grupo-5-9C4R3X">
+                                <div class="total-sale-today-UubbE9">
+                                    <div class="bg-pHFohL">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-QGm08h" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-fPG81A">
+                                <div class="artigo-sobre-responsividade-EUtwwo font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-ffmTw1 font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-yV28X2">
+                                    <div class="a2-rW6Ojw font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-ddnwkU">
+                                        <img anima-src="static/img/circle-18@1x.png" class="circle-sImocx" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-BXqlIA">
+                                    <div class="retangulo-2-XKwqde">
+                                    </div>
+                                    <div class="fazer-pownXU font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-9-fdEdDO">
+                            <div class="grupo-5-ZVKrfD">
+                                <div class="total-sale-today-cN5Gzs">
+                                    <div class="bg-XnaWz3">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-iPPi49" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-2v6GXM">
+                                <div class="artigo-sobre-responsividade-vycQxI font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-3d953S font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-PzdDnt">
+                                    <div class="a2-uy3mWk font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-qjs9rQ">
+                                        <img anima-src="static/img/circle-18@1x.png" class="circle-WuOsF8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-ngywH5">
+                                    <div class="retangulo-2-DxPVr7">
+                                    </div>
+                                    <div class="fazer-xCQxhn font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo-14-1gxxv8">
+                        <div class="componente-2-10-3JA0n2">
+                            <div class="grupo-5-prgAYP">
+                                <div class="total-sale-today-pG5jOZ">
+                                    <div class="bg-YwDeRt">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-9ixDkr" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-oW74Av">
+                                <div class="artigo-sobre-responsividade-5d3J9M font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-CXqlP6 font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-Qm959Q">
+                                    <div class="a2-VoCZAO font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-8gJFnf">
+                                        <img anima-src="static/img/circle-18@1x.png" class="circle-FOxWjt" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-wwyaVP">
+                                    <div class="retangulo-2-pwwv7G">
+                                    </div>
+                                    <div class="fazer-tZIIPP font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-11-d0lLVo">
+                            <div class="grupo-5-l99J8d">
+                                <div class="total-sale-today-dZjeQv">
+                                    <div class="bg-tdwD5R">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-G8bN9Q" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-Hm8vpT">
+                                <div class="artigo-sobre-responsividade-DjtO6d font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-u5lrgb font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-SSNuWm">
+                                    <div class="a2-tOcwFw font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-iXjKXn">
+                                        <img anima-src="static/img/circle-18@1x.png" class="circle-4VSxFr" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-SK31OP">
+                                    <div class="retangulo-2-efBxlg">
+                                    </div>
+                                    <div class="fazer-PJ9SCf font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="componente-2-12-niJov4">
+                            <div class="grupo-5-7x4shf">
+                                <div class="total-sale-today-7AOE6S">
+                                    <div class="bg-fG6Lzo">
+                                        <img anima-src="static/img/caminho-20-10@1x.png" class="caminho-20-byRMWy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grupo-12-4pj9ob">
+                                <div class="artigo-sobre-responsividade-g58ewZ font-class-1">
+                                    Artigo sobre responsividade
+                                </div>
+                                <div class="ao-final-voce-ganhara-TUT0cx font-class-6">
+                                    Ao final, você ganhará:
+                                </div>
+                                <div class="grupo-11-MHETbZ">
+                                    <div class="a2-vXwT5D font-class-1">
+                                        +2%
+                                    </div>
+                                    <div class="counter-CxOxpe">
+                                        <img anima-src="static/img/circle-18@1x.png" class="circle-iKw4bW" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                    </div>
+                                </div>
+                                <div class="grupo-6-mOuQNk">
+                                    <div class="retangulo-2-1BNRGY">
+                                    </div>
+                                    <div class="fazer-l8lnfQ font-class-4">
+                                        Fazer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-18-eMxhQr">
+                    <div class="grupo-17-XEb7Cx">
+                        <div class="quer-concorrer-a-vagas-que-dao-match-com-suas-competencias-M7T3Fx font-class-10">
+                            Quer concorrer a vagas que dão<br />“Match”  com  suas competências?
+                        </div>
+                        <div class="grupo-15-GmPBM5">
+                            <div class="retangulo-2-kxOW39">
+                            </div>
+                            <div class="vagas-xevEll font-class-4">
+                                Vagas
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-26-uxQKJs">
+                    <div class="grupo-20-tLqelE">
+                        <img anima-src="static/img/caminho-28-1@1x.png" class="caminho-28-YEewEp" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="camada-2-MZNMFF anima-flexbox-container">
+                        <div class="camada-1-rqxBCF anima-flexbox-container">
+                            <div class="overlap-group1-Bm5ls4">
+                                <img anima-src="static/img/caminho-31-1@1x.png" class="caminho-31-hQi3o6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-32-1@1x.png" class="caminho-32-MaSh2p" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-36-1@1x.png" class="caminho-36-QnuiaO" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-37-1@1x.png" class="caminho-37-DVV9ws" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <div class="grupo-24-1OVCGR anima-flexbox-container">
+                                    <div class="retangulo-4-x3yhHm">
+                                    </div>
+                                    <div class="overlap-group2-fViMwE">
+                                        <div class="retangulo-5-qawxfg">
+                                        </div>
+                                        <div class="retangulo-6-yqVc1R">
+                                        </div>
+                                    </div>
+                                    <div class="retangulo-7-mG0OlC">
+                                    </div>
+                                    <div class="retangulo-8-xxPzmD">
+                                    </div>
+                                    <div class="overlap-group3-wVOQdA">
+                                        <div class="retangulo-9-lRleLM">
+                                        </div>
+                                        <div class="retangulo-10-KjaxYg">
+                                        </div>
+                                        <div class="retangulo-11-I88cmA">
+                                        </div>
+                                    </div>
+                                    <div class="retangulo-12-aIWUOk">
+                                    </div>
+                                    <div class="overlap-group4-csJBAl">
+                                        <div class="retangulo-13-n1n00H">
+                                        </div>
+                                        <div class="retangulo-14-ElNy1B">
+                                        </div>
+                                        <div class="retangulo-15-c10C2X">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group5-pFh1xJ">
+                                        <div class="retangulo-16-2sIFXM">
+                                        </div>
+                                        <div class="retangulo-17-I8nPxh">
+                                        </div>
+                                        <div class="retangulo-18-7eKnwW">
+                                        </div>
+                                        <div class="retangulo-136-9KXxrv">
+                                        </div>
+                                        <div class="retangulo-137-zOx9gu">
+                                        </div>
+                                        <div class="retangulo-138-VxnjiC">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group6-5N6adv">
+                                        <div class="retangulo-19-HhC0WC">
+                                        </div>
+                                        <div class="retangulo-139-ANM7cF">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group7-9p0App">
+                                        <div class="retangulo-20-xu8enk">
+                                        </div>
+                                        <div class="retangulo-140-L5Pvdh">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group8-Tixl4L">
+                                        <div class="retangulo-21-qecGch">
+                                        </div>
+                                        <div class="retangulo-22-2QBxG8">
+                                        </div>
+                                        <div class="retangulo-23-9Mfcll">
+                                        </div>
+                                        <div class="retangulo-141-J9K7vg">
+                                        </div>
+                                        <div class="retangulo-142-89kPca">
+                                        </div>
+                                        <div class="retangulo-143-RYnn3y">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group9-G5txg9">
+                                        <div class="retangulo-24-Y7iLIl">
+                                        </div>
+                                        <div class="retangulo-25-UwYxGw">
+                                        </div>
+                                        <div class="retangulo-26-VzTS1b">
+                                        </div>
+                                        <div class="retangulo-144-ckKCmS">
+                                        </div>
+                                        <div class="retangulo-145-LTwIXo">
+                                        </div>
+                                        <div class="retangulo-146-KN12qs">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group10-KNYqDT">
+                                        <div class="retangulo-27-7xtLAI">
+                                        </div>
+                                        <div class="retangulo-147-RxrBXV">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group11-N4d5Am">
+                                        <div class="retangulo-28-1KMOwo">
+                                        </div>
+                                        <div class="retangulo-29-hHDd4v">
+                                        </div>
+                                        <div class="retangulo-148-p3LBTB">
+                                        </div>
+                                        <div class="retangulo-149-xg72xM">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group12-GJNAH3">
+                                        <div class="retangulo-30-bUNmKF">
+                                        </div>
+                                        <div class="retangulo-31-EYxGxp">
+                                        </div>
+                                        <div class="retangulo-150-ebz7uG">
+                                        </div>
+                                        <div class="retangulo-151-hcWwS7">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group13-xwBXCm">
+                                        <div class="retangulo-32-i4GuN1">
+                                        </div>
+                                        <div class="retangulo-33-alu0xD">
+                                        </div>
+                                        <div class="retangulo-34-oeoTC5">
+                                        </div>
+                                        <div class="retangulo-152-ZAp5v0">
+                                        </div>
+                                        <div class="retangulo-153-tgJ66P">
+                                        </div>
+                                        <div class="retangulo-154-JXz5Ds">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group14-mTo2cs">
+                                        <div class="retangulo-35-QaodOc">
+                                        </div>
+                                        <div class="retangulo-36-rBuKCK">
+                                        </div>
+                                        <div class="retangulo-37-nIK54M">
+                                        </div>
+                                        <div class="retangulo-38-CuixjC">
+                                        </div>
+                                        <div class="retangulo-155-EphDHz">
+                                        </div>
+                                        <div class="retangulo-156-NyqpmC">
+                                        </div>
+                                        <div class="retangulo-157-j5FP40">
+                                        </div>
+                                        <div class="retangulo-158-EHkzsm">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group15-Zceu1S">
+                                        <div class="retangulo-39-8HXxi5">
+                                        </div>
+                                        <div class="retangulo-40-Q2bojL">
+                                        </div>
+                                        <div class="retangulo-41-T5opef">
+                                        </div>
+                                        <div class="retangulo-159-Rl24v1">
+                                        </div>
+                                        <div class="retangulo-160-x5zbxy">
+                                        </div>
+                                        <div class="retangulo-161-diJSto">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group16-GlcyTA">
+                                        <div class="retangulo-42-85cG8X">
+                                        </div>
+                                        <div class="retangulo-162-yePXfQ">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group17-aZ48tZ">
+                                        <div class="retangulo-43-rF0cY3">
+                                        </div>
+                                        <div class="retangulo-44-TboAY0">
+                                        </div>
+                                        <div class="retangulo-163-uvWxQl">
+                                        </div>
+                                        <div class="retangulo-164-WoKDy6">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group18-oYVSXr">
+                                        <div class="retangulo-45-lMDa0A">
+                                        </div>
+                                        <div class="retangulo-46-iY880j">
+                                        </div>
+                                        <div class="retangulo-165-eJDpTR">
+                                        </div>
+                                        <div class="retangulo-166-GQgPne">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group19-jhUt3O">
+                                        <div class="retangulo-47-xLWXj5">
+                                        </div>
+                                        <div class="retangulo-48-0iqxYI">
+                                        </div>
+                                        <div class="retangulo-167-GUe0Zk">
+                                        </div>
+                                        <div class="retangulo-168-Q856Gy">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group20-Si9u3b">
+                                        <div class="retangulo-49-CQGZxp">
+                                        </div>
+                                        <div class="retangulo-169-RF93Tb">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group21-lb6vr0">
+                                        <div class="retangulo-50-Xcho26">
+                                        </div>
+                                        <div class="retangulo-170-T1TUkv">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group22-gxxQ1K">
+                                        <div class="retangulo-51-xKfUOP">
+                                        </div>
+                                        <div class="retangulo-52-dhxCsn">
+                                        </div>
+                                        <div class="retangulo-53-PzyKCj">
+                                        </div>
+                                        <div class="retangulo-54-HxNvbA">
+                                        </div>
+                                        <div class="retangulo-55-Rx37xw">
+                                        </div>
+                                        <div class="retangulo-56-VS9xzx">
+                                        </div>
+                                        <div class="retangulo-171-GZFRqw">
+                                        </div>
+                                        <div class="retangulo-172-PrJDA0">
+                                        </div>
+                                        <div class="retangulo-173-TFnE6U">
+                                        </div>
+                                        <div class="retangulo-174-a7ntOq">
+                                        </div>
+                                        <div class="retangulo-175-8bDMTd">
+                                        </div>
+                                        <div class="retangulo-176-wrO8zz">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group23-zFYe36">
+                                        <div class="retangulo-57-mwFxOb">
+                                        </div>
+                                        <div class="retangulo-58-h81NGJ">
+                                        </div>
+                                        <div class="retangulo-59-jUsAU2">
+                                        </div>
+                                        <div class="retangulo-177-6wWAMM">
+                                        </div>
+                                        <div class="retangulo-178-CMxrgT">
+                                        </div>
+                                        <div class="retangulo-179-CCmlr0">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group24-4BGHc2">
+                                        <div class="retangulo-60-1d50rq">
+                                        </div>
+                                        <div class="retangulo-61-6fUjmy">
+                                        </div>
+                                        <div class="retangulo-180-JoasDD">
+                                        </div>
+                                        <div class="retangulo-181-PllrQN">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group25-a2IwqW">
+                                        <div class="retangulo-62-6yeNxy">
+                                        </div>
+                                        <div class="retangulo-63-CWvWh6">
+                                        </div>
+                                        <div class="retangulo-64-6JBRYX">
+                                        </div>
+                                        <div class="retangulo-182-6FbdEZ">
+                                        </div>
+                                        <div class="retangulo-183-jDNXmF">
+                                        </div>
+                                        <div class="retangulo-184-16xkiD">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group26-ajZp5s">
+                                        <div class="retangulo-65-5UxXzs">
+                                        </div>
+                                        <div class="retangulo-66-cbXPzQ">
+                                        </div>
+                                        <div class="retangulo-67-SM8lf8">
+                                        </div>
+                                        <div class="retangulo-68-ZnTCvx">
+                                        </div>
+                                        <div class="retangulo-185-i8fIGc">
+                                        </div>
+                                        <div class="retangulo-186-Fx2FNw">
+                                        </div>
+                                        <div class="retangulo-187-8c7tmt">
+                                        </div>
+                                        <div class="retangulo-188-UAC4EW">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group27-amx5em">
+                                        <div class="retangulo-69-DqB1bx">
+                                        </div>
+                                        <div class="retangulo-70-sTURcJ">
+                                        </div>
+                                        <div class="retangulo-71-LrUis9">
+                                        </div>
+                                        <div class="retangulo-72-jaQUSC">
+                                        </div>
+                                        <div class="retangulo-189-IhJRts">
+                                        </div>
+                                        <div class="retangulo-190-f8Pa8f">
+                                        </div>
+                                        <div class="retangulo-191-N3ODJs">
+                                        </div>
+                                        <div class="retangulo-192-ZuJ6qn">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group28-HWbzuF">
+                                        <div class="retangulo-73-RxDt0S">
+                                        </div>
+                                        <div class="retangulo-74-zLTXby">
+                                        </div>
+                                        <div class="retangulo-75-L71xqj">
+                                        </div>
+                                        <div class="retangulo-76-B64F6k">
+                                        </div>
+                                        <div class="retangulo-77-B1gRjc">
+                                        </div>
+                                        <div class="retangulo-78-GmcULP">
+                                        </div>
+                                        <div class="retangulo-193-nJAau2">
+                                        </div>
+                                        <div class="retangulo-194-d2hQT3">
+                                        </div>
+                                        <div class="retangulo-195-q9sbtI">
+                                        </div>
+                                        <div class="retangulo-196-FEvF7d">
+                                        </div>
+                                        <div class="retangulo-197-rHbHVq">
+                                        </div>
+                                        <div class="retangulo-198-BMKsxZ">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group29-PJZmle">
+                                        <div class="retangulo-79-wXeGrr">
+                                        </div>
+                                        <div class="retangulo-80-GV6nbe">
+                                        </div>
+                                        <div class="retangulo-81-0OxTeE">
+                                        </div>
+                                        <div class="retangulo-82-rlL8L8">
+                                        </div>
+                                        <div class="retangulo-83-swrpHu">
+                                        </div>
+                                        <div class="retangulo-84-Wmc9If">
+                                        </div>
+                                        <div class="retangulo-199-Tatqab">
+                                        </div>
+                                        <div class="retangulo-200-uGzaVH">
+                                        </div>
+                                        <div class="retangulo-201-VKQJZT">
+                                        </div>
+                                        <div class="retangulo-202-k2LEja">
+                                        </div>
+                                        <div class="retangulo-203-PChEnd">
+                                        </div>
+                                        <div class="retangulo-204-LlYhaR">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group30-a9yQGh">
+                                        <div class="retangulo-85-24loMt">
+                                        </div>
+                                        <div class="retangulo-86-hApCl7">
+                                        </div>
+                                        <div class="retangulo-87-vgTSuX">
+                                        </div>
+                                        <div class="retangulo-88-0OJRYE">
+                                        </div>
+                                        <div class="retangulo-205-SrxKr5">
+                                        </div>
+                                        <div class="retangulo-206-ZHx4nm">
+                                        </div>
+                                        <div class="retangulo-207-xhfdfc">
+                                        </div>
+                                        <div class="retangulo-208-Io1Xxc">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group31-uOxIDP">
+                                        <div class="retangulo-89-ZYVn7S">
+                                        </div>
+                                        <div class="retangulo-90-kOKYCv">
+                                        </div>
+                                        <div class="retangulo-91-WUaCPu">
+                                        </div>
+                                        <div class="retangulo-92-ChSOgf">
+                                        </div>
+                                        <div class="retangulo-93-pd5ORH">
+                                        </div>
+                                        <div class="retangulo-94-hQ8d7L">
+                                        </div>
+                                        <div class="retangulo-95-1elHax">
+                                        </div>
+                                        <div class="retangulo-209-AQipK5">
+                                        </div>
+                                        <div class="retangulo-210-RrdRxy">
+                                        </div>
+                                        <div class="retangulo-211-4QS8U4">
+                                        </div>
+                                        <div class="retangulo-212-vlMV1E">
+                                        </div>
+                                        <div class="retangulo-213-Jc4oMA">
+                                        </div>
+                                        <div class="retangulo-214-QkMylb">
+                                        </div>
+                                        <div class="retangulo-215-yOZiYN">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group32-C4N0Ls">
+                                        <div class="retangulo-96-wxTlK1">
+                                        </div>
+                                        <div class="retangulo-97-w8jySa">
+                                        </div>
+                                        <div class="retangulo-216-Nc84BH">
+                                        </div>
+                                        <div class="retangulo-217-6ssaO7">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group33-TeKPcm">
+                                        <div class="retangulo-98-Uk99Yn">
+                                        </div>
+                                        <div class="retangulo-99-v8QCWF">
+                                        </div>
+                                        <div class="retangulo-218-G0xQbM">
+                                        </div>
+                                        <div class="retangulo-219-UmNTW6">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group34-IOSR8a">
+                                        <div class="retangulo-100-hCCrqr">
+                                        </div>
+                                        <div class="retangulo-101-4B2NFN">
+                                        </div>
+                                        <div class="retangulo-102-lxDxVI">
+                                        </div>
+                                        <div class="retangulo-220-RAHXk9">
+                                        </div>
+                                        <div class="retangulo-221-TQRgRt">
+                                        </div>
+                                        <div class="retangulo-222-U491QF">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group35-Lpbx6c">
+                                        <div class="retangulo-103-wbxRHS">
+                                        </div>
+                                        <div class="retangulo-104-K7OTJC">
+                                        </div>
+                                        <div class="retangulo-105-oH7WuL">
+                                        </div>
+                                        <div class="retangulo-223-5TIOPY">
+                                        </div>
+                                        <div class="retangulo-224-gbxerg">
+                                        </div>
+                                        <div class="retangulo-225-Q7h9rH">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group36-uNYzTs">
+                                        <div class="retangulo-106-hvMigR">
+                                        </div>
+                                        <div class="retangulo-226-Si5pXw">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group37-K0kSil">
+                                        <div class="retangulo-107-0fm3xU">
+                                        </div>
+                                        <div class="retangulo-108-X3qKHQ">
+                                        </div>
+                                        <div class="retangulo-109-HvaPcx">
+                                        </div>
+                                        <div class="retangulo-227-no6B9Y">
+                                        </div>
+                                        <div class="retangulo-228-lSbCzR">
+                                        </div>
+                                        <div class="retangulo-229-xXGbI0">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group38-SpCdpT">
+                                        <div class="retangulo-110-NfbsmJ">
+                                        </div>
+                                        <div class="retangulo-111-8Qg2SB">
+                                        </div>
+                                        <div class="retangulo-112-guKJDi">
+                                        </div>
+                                        <div class="retangulo-230-ufm6TG">
+                                        </div>
+                                        <div class="retangulo-231-kuVryg">
+                                        </div>
+                                        <div class="retangulo-232-dm3UTp">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group39-FCnTRH">
+                                        <div class="retangulo-113-ItfqGv">
+                                        </div>
+                                        <div class="retangulo-114-8fZV1U">
+                                        </div>
+                                        <div class="retangulo-115-3oadY3">
+                                        </div>
+                                        <div class="retangulo-116-S9levA">
+                                        </div>
+                                        <div class="retangulo-117-EipRcv">
+                                        </div>
+                                        <div class="retangulo-118-ET4VlU">
+                                        </div>
+                                        <div class="retangulo-119-8pL8hm">
+                                        </div>
+                                        <div class="retangulo-120-xBYRXF">
+                                        </div>
+                                        <div class="retangulo-121-OS3hTp">
+                                        </div>
+                                        <div class="retangulo-122-yB0ea5">
+                                        </div>
+                                        <div class="retangulo-233-nBGjQh">
+                                        </div>
+                                        <div class="retangulo-234-NG4OJ5">
+                                        </div>
+                                        <div class="retangulo-235-oqkj2z">
+                                        </div>
+                                        <div class="retangulo-236-QrGYPj">
+                                        </div>
+                                        <div class="retangulo-237-cnVGDx">
+                                        </div>
+                                        <div class="retangulo-238-kxv1hC">
+                                        </div>
+                                        <div class="retangulo-239-7epiQu">
+                                        </div>
+                                        <div class="retangulo-240-nrvBEy">
+                                        </div>
+                                        <div class="retangulo-241-9xMWEk">
+                                        </div>
+                                        <div class="retangulo-242-coAZOM">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group40-DPve79">
+                                        <div class="retangulo-123-qXYf93">
+                                        </div>
+                                        <div class="retangulo-124-YOAJjx">
+                                        </div>
+                                        <div class="retangulo-243-kdUy1h">
+                                        </div>
+                                    </div>
+                                    <div class="retangulo-125-Ym3OY7">
+                                    </div>
+                                    <div class="overlap-group41-aFxk3p">
+                                        <div class="retangulo-126-lort5m">
+                                        </div>
+                                        <div class="retangulo-127-Aj6VLp">
+                                        </div>
+                                        <div class="retangulo-128-lvChbJ">
+                                        </div>
+                                        <div class="retangulo-129-CYFxkd">
+                                        </div>
+                                        <div class="retangulo-130-DmFx7V">
+                                        </div>
+                                        <div class="retangulo-131-y9EonP">
+                                        </div>
+                                        <div class="retangulo-132-lZPy7J">
+                                        </div>
+                                        <div class="retangulo-133-xErdMa">
+                                        </div>
+                                    </div>
+                                    <div class="overlap-group42-iaeHg8">
+                                        <div class="retangulo-134-Z0glKg">
+                                        </div>
+                                        <div class="retangulo-135-UJnx9I">
+                                        </div>
+                                    </div>
+                                    <img anima-src="static/img/caminho-38-1@1x.png" class="caminho-38-qJ7dLN" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                </div>
+                            </div>
+                            <img anima-src="static/img/caminho-33-1@1x.png" class="caminho-33-enIvjR" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="static/img/caminho-34-1@1x.png" class="caminho-34-bG744X" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img anima-src="static/img/caminho-35-5@1x.png" class="caminho-35-xxrvyQ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+        <script src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js">
+        </script>
+    </body>
+</html>

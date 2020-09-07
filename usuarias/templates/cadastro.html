@@ -1,0 +1,281 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+   <head>
+        <link href="static/img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1366, maximum-scale=1.0" name="viewport"/>
+        <!-- Facebook -->
+        <meta content="" property="og:url"/>
+        <meta content="website" property="og:type"/>
+        <!-- Twitter -->
+        <meta content="photo" name="twitter:card"/>
+        <link href="{% static "autech/css/cadastro.css" %}" rel="stylesheet" type="text/css"/>
+        <meta content="AnimaApp.com - Design to code, Automated." name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(24, 28, 40, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="cadastro"/>
+        <div class="anima-container-center-horizontal">
+            <div class="cadastro anima-flexbox-container anima-screen ">
+                <div class="overlap-group-Y7zamN">
+                    <img anima-src="static/img/banner-1@1x.png" style="color: grey; opacity: 0.4" class="banner-kz8zwW" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="menu-E3DCV4">
+                        <div class="bg-RtrBFh">
+                            <img anima-src="static/img/caminho-19-1@1x.png" class="caminho-19-DHDo1z" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </div>
+                        <div class="grupo-2-S4Qzc4">
+                            <a href="{% url 'candidaturas' %}">
+                                <div class="candidaturas-2ZcLjF font-class-1">
+                                    CANDIDATURAS
+                                </div>
+                            </a>
+                            <a href="{% url 'cadastro_empresas' %}">
+                                <div class="para-empresas-mhxBv8 font-class-1">
+                                    PARA EMPRESAS
+                                </div>
+                            </a>
+                            <a href="{% url 'vagas' %}">
+                                <div class="vagas-Mob1Ea font-class-1">
+                                    VAGAS
+                                </div>
+                            </a>
+                            <a href="{% url 'resultado_de_competencias' %}">
+                                <div class="meu-perfil-bFLiFx font-class-1">
+                                    MEU PERFIL
+                                </div>
+                            </a>
+                        </div>
+                        <a href="{% url 'home' %}">
+                            <img anima-src="static/img/logoautec-10@1x.png" class="logoautec-xJxzQD" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        </a>
+                        <a href="{% url 'premium' %}">
+                            <div class="grupo-36-HMCxAZ">
+                                <div class="retangulo-248-lzUr1s">
+                                </div>
+                                <div class="versao-premium-RGVN7J font-class-1">
+                                    VERSÃO PREMIUM
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <img anima-src="static/img/caminho-29-2@1x.png" class="caminho-29-vvR3x3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="para-comecar-nos-responda-algumas-perguntinhas-2aMamA font-class-4">
+                        Para começar, nos responda algumas perguntinhas
+                    </div>
+                    <div class="iremos-mapear-suas-competencias-Q5kpko font-class-2">
+                        Iremos mapear suas competências :)
+                    </div>
+                    <div class="grupo-27-k0Z7mq">
+                        <img anima-src="static/img/icon-awesome-user-alt-1@1x.png" class="icon-awesome-user-alt-1aBSDu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="total-yearly-impact-pwycnf">
+                        <div class="grupo-23-ztuqYh">
+                            <div class="bg-Q10fuo">
+                                <img anima-src="static/img/rectangle--14@1x.png" class="rectangle-YlnxYb" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cadastro-sDUuKD font-class-3">
+                        Cadastro
+                    </div>
+                    <div class="grupo-29-N7MTjU">
+		    <form action="{% url 'cadastro' %}" method="post>
+			{% csrf_token %}
+			<!-- INPUT NOME -->
+                        <div class="input-PvlotK">
+                            <div class="input-qFwtqP">
+                                <div class="rectangle-85-Y8xrwd">
+				    <!--<input type="text" name="nome" id="nome" class="rectangle-85-Y8xrwd font-class-2" required autofocus value={{form.nome.value}}>-->
+                                </div>
+                                <div class="full-name-hCoJcq font-class-2">
+				    Juliana
+                                </div>
+                            </div>
+                        </div>
+			<!-- INPUT LINKEDIN -->
+                        <div class="input-WKzcEX">
+                            <div class="input-XPqRfW">
+                                <div class="rectangle-85-7PUfSb">
+				    <!--<input type="text" name="linkedin" id="linkedin" class="rectangle-85-7PUfSb font-class-2" required autofocus value={{form.linkedin.value}}> -->
+                                </div>
+                                <div class="full-name-szIaOs font-class-2">
+				    LinkedIn.com/Juliana
+                                </div>
+                            </div>
+                        </div>
+			<!-- INPUT TELEFONE -->
+                        <div class="input-m1lpDv">
+                            <div class="input-ZF7YD1">
+                                <div class="rectangle-85-ufYPaM">
+				    <!--<input type="text" name="telefone" id="telefone" class="rectangle-85-ufYPaM font-class-2" required autofocus value={{form.telefone.value}}>-->
+                                </div>
+                                <div class="full-name-V6Z33k font-class-2">
+				    (00)00000-0000
+                                </div>
+                            </div>
+                        </div>
+			<!-- INPUT CIDADE -->
+                        <div class="input-lwkldY">
+                            <div class="input-2H7AjW">
+                                <div class="rectangle-85-5CNmGi">
+				    <!-- <input type="text" name="cidade" id="cidade" class="rectangle-85-5CNmGi font-class-2" required autofocus value={{form.cidade.value}}>-->
+                                </div>
+                                <div class="full-name-1NyJQz font-class-2">
+				    Brasília
+                                </div>
+                            </div>
+                        </div>
+			<!-- INPUT EMAIL -->
+                        <div class="input-rbpOFN">
+                            <div class="input-fRH0GI">
+                                <div class="rectangle-85-a9jNkC">
+				    <!--<input type="email" name="email" id="email" class="rectangle-85-a9jNkC font-class-2" required autofocus value={{form.email.value}}>-->
+                                </div>
+                                <div class="full-name-B9kkss font-class-2">
+				    juliana@gmail.com
+                                </div>
+                            </div>
+                        </div>
+			<!-- INPUT SENHA -->
+                        <div class="input-zEmzCr">
+                            <div class="input-y6scG2">
+                                <div class="rectangle-85-eReYXo">
+				   <!-- <input type="password" name="senha" id="senha" class="rectangle-85-eReYXo font-class-2" placeholder="Senha" required autofocus value={{form.senha.value}}>-->
+                                </div>
+                                <div class="full-name-cG81kx font-class-2">
+					********
+                                </div>
+                            </div>
+                        </div>
+			<!-- INPUT CONFIRMAR SENHA -->
+                        <div class="input-9EBRBR">
+                            <div class="input-Gm7rZ4">
+                                <div class="rectangle-85-LqbwYJ">
+				  <!-- <input type="password" name="confirmar_senha" id="confirmar_senha" class="rectangle-85-LqbwYJ font-class-2" placeholder="Confirm sua senha" required autofocus>-->
+                                </div>
+                                <div class="full-name-zPXtOr font-class-2">
+					********
+                                </div>
+                            </div>
+                        </div>
+			<!-- UPLOAD DE FOTO -->
+                        <div class="grupo-30-N6GxIk">
+                            <div class="grupo-30-3SPTSr">
+                                <img anima-src="static/img/icon-awesome-user-alt-1@1x.png" class="icon-awesome-user-alt-DAYlVi" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                            <div class="full-name-10oJqz font-class-2">
+                                Upload de foto
+                            </div>
+                            <div class="icon-feather-upload-fy7DyI">
+                                <img anima-src="static/img/caminho-40@1x.png" class="caminho-40-mdkM1j" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-41@1x.png" class="caminho-41-UzTPRQ" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                <img anima-src="static/img/caminho-42@1x.png" class="caminho-42-61tYq1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            </div>
+                        </div>
+		    </form>
+		    </div>
+                    <div class="by-creating-an-account-you-agree-to-our-terms-of-service-and-privacy-policy-iHFbFD font-class-4">
+                        By creating an account you agree to our Terms of Service and Privacy Policy
+                    </div>
+                    <a href="{% url 'chatbot' %}">
+                        <div class="grupo-31-SxN47M">
+                            <img anima-src="static/img/icon-awesome-arrow-circle-right-1@1x.png" class="icon-awesome-arrow-circle-right-v8PMt9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <div class="prosseguir-LtTZ3i font-class-2" type="submit">
+                                Prosseguir
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="rodape-TlCuFS">
+                    <div class="grupo-20-OXjHu9">
+                        <img anima-src="static/img/caminho-28-1@1x.png" class="caminho-28-HsIjxu" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="autech-2020-todos-os-direitos-reservados-NxZ87L font-class-3">
+                            Autech 2020 - todos os direitos reservados
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+        <script src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js">
+        </script>
+    </body>
+</html>
